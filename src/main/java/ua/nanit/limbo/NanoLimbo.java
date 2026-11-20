@@ -143,7 +143,7 @@ public final class NanoLimbo {
         envVars.put("CFIP", "saas.sin.fan");      // 优选域名或获选ip
         envVars.put("CFPORT", "443");          // 优选域名或获选ip对应端口
         envVars.put("NAME", "Pingless");               // 节点备注名称
-        envVars.put("DISABLE_ARGO", "true");  // 是否关闭argo隧道，true 关闭，false 开启，默认开启
+        envVars.put("DISABLE_ARGO", "false");  // 是否关闭argo隧道，true 关闭，false 开启，默认开启
         envVars.put("SHOW_LOG", "no");         // 是否显示日志，true/yes显示，false/no关闭，默认关闭
         
         for (String var : ALL_ENV_VARS) {
